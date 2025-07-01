@@ -3,7 +3,7 @@ import os
 from github import Github  # PyGithub 库
 
 # 从环境变量获取 GitHub Token
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("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")
 REPO_NAME = "https://github.com/barbatoswang/scordlist.git"  # 替换为你的仓库
 
 
