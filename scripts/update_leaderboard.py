@@ -35,7 +35,7 @@ def update_leaderboard():
 
     # 5. 按分数排序并保存
     leaderboard.sort(key=lambda x: -x["score"])
-    with open("docs/leaderboard.json", "w") as f:
+    with open("dosc/leaderboard.json", "w") as f:
         json.dump(leaderboard, f, indent=2)
 
 
