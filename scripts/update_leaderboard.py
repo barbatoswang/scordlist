@@ -4,7 +4,7 @@ from github import Github  # PyGithub 库
 
 # 从环境变量获取 GitHub Token
 GITHUB_TOKEN = os.getenv("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")
-REPO_NAME = "https://github.com/barbatoswang/scordlist.git"  # 替换为你的仓库
+REPO_NAME = "barbatoswang/scordlist"  # 替换为你的仓库
 
 
 def update_leaderboard():
