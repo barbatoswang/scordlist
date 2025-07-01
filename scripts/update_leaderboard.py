@@ -9,7 +9,7 @@ REPO_NAME = "barbatoswang/scordlist"  # 替换为你的仓库
 
 def update_leaderboard():
     # 1. 读取现有排行榜
-    with open("docs/leaderboard.json", "r") as f:
+    with open("dosc/leaderboard.json", "r") as f:
         leaderboard = json.load(f)
 
     # 2. 获取最新的 Issue（成绩提交）
